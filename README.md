@@ -64,7 +64,7 @@ project-2-automation-pipeline/
 
 ---
 
-## ▶ How to Run
+## How to Run
 
 ### 1. Create virtual environment (optional)
 
