@@ -1,6 +1,6 @@
 # Automated Data Ingestion & Reporting Pipeline
 
-## 📌 Project Overview
+## Project Overview
 
 This project demonstrates a **fully automated data pipeline** built with Python. The pipeline ingests raw CSV files, cleans and standardizes the data, and produces processed datasets and summary reports — all executed with a single command.
 
@@ -8,7 +8,7 @@ The focus of this project is **automation, reproducibility, and clean data workf
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 * Automate ingestion of multiple raw CSV files
 * Apply consistent data cleaning and validation rules
@@ -18,7 +18,7 @@ The focus of this project is **automation, reproducibility, and clean data workf
 
 ---
 
-## 🧱 Project Structure
+## Project Structure
 
 ```
 project-2-automation-pipeline/
@@ -42,29 +42,29 @@ project-2-automation-pipeline/
 
 ---
 
-## 🔄 Pipeline Steps
+## Pipeline Steps
 
-### 1️⃣ Extract
+### 1 Extract
 
 * Automatically reads **all CSV files** from `data/raw/`
 * Combines them into a single dataset
 * Tracks source file names for traceability
 
-### 2️⃣ Transform
+### 2️ Transform
 
 * Standardizes column names
 * Removes duplicate records
 * Handles missing values
 * Ensures consistent schema
 
-### 3️⃣ Load
+### 3️ Load
 
 * Saves cleaned data to `data/processed/cleaned_data.csv`
 * Generates a statistical summary report in `reports/summary_report.csv`
 
 ---
 
-## ▶️ How to Run
+## ▶ How to Run
 
 ### 1. Create virtual environment (optional)
 
