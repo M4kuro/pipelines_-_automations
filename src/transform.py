@@ -14,9 +14,9 @@ def transform_data(df: pd.DataFrame) -> pd.DataFrame:
 
     # 3. Handle missing values
     for col in df.select_dtypes(include="number").columns:
-        df[col] = df[col].fillna(0)
+        df[col] = df[col].fillna(0) # type: ignore
 
     for col in df.select_dtypes(include="object").columns:
-        df[col] = df[col].fillna("unknown")
+        df[col] = df[col].fillna("unknown") # type: ignore
 
     return df
