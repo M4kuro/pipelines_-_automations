@@ -42,7 +42,6 @@ def transform_vgsales_data(df: pd.DataFrame) -> pd.DataFrame:
 
     # Fix data types
     df["Year"] = df["Year"].astype(int)
-    df_long = df_long[df_long["sales"] > 0]  # type: ignore
 
     # Rename columns
     df = df.rename(
@@ -62,6 +61,7 @@ def transform_vgsales_data(df: pd.DataFrame) -> pd.DataFrame:
         var_name="region",
         value_name="sales",
     )
+    df_long = df_long[df_long["sales"] > 0]  # type: ignore
 
     # Aggregate
     df_long = (
