@@ -9,5 +9,7 @@ data/raw/
 data/processed/
 data/archive/
 
+reports/
+
 # OS
 .DS_Store
