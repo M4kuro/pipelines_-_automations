@@ -7,6 +7,7 @@ venv/
 # Data
 data/raw/
 data/processed/
+data/archive/
 
 # OS
 .DS_Store
